@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #7768AE;
+}
+.header {
+    background-color: #090809;
+    color: #941C2F;
+    text-align: center;
+    padding: 20px;
+    font-size: 48px;
+
+}
+.experiment-group {
+    display: flex;
+    align-items: center;
+    background-color: #D9D9D9;
+    margin: 30px;
+    padding: 20px;
+}
+.flag {
+    flex-shrink: 0;
+    margin-right: 10px; 
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    text-align: left;
+    padding: 8px;
+    color: #2c3e50;
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+    height: 120px;
+    padding-left: 40px;
+}
